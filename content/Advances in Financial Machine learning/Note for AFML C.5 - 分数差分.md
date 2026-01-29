@@ -1,5 +1,5 @@
 ---
-title: Note for Chapter 5 for AFML
+title: Note for AFML C.5 - 分数差分
 tags:
   - data-analysis
 ---

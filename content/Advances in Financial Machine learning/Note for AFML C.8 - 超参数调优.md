@@ -1,5 +1,5 @@
 ---
-title: Note for Chapter 9 for AFML
+title: Note for AFML C.8 - 超参数调优
 tags:
   - modeling
 ---

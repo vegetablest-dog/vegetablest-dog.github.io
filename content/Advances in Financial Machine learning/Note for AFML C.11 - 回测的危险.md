@@ -1,5 +1,5 @@
 ---
-title: Note for Chapter 11 for AFML
+title: Note for AFML C.11 - 回测的危险
 tags:
   - modeling
 ---
@@ -46,4 +46,4 @@ tags:
 6. 确定$\bar{R}_{n^*}$在$\bar{R}$中的相对rank，记作$\bar{\omega}_c \in (0,1)$. 这是与样本内（IS）选择的试验相关的样本外（OOS）表现的相对排名。如果策略优化过程没有过拟合，我们应该观察到 $\bar{R}_{n^*}$ 系统性地优于 $\bar{R}$（OOS），就像 $R_{n^*}$ 超过 $R$（IS）一样。
 7. 定义$\lambda_c = \log[\frac{\bar{\omega}}{1- \bar{\omega}}]$. 当$\lambda_c =0$,就说明$\bar{R}_{n^*}$是中位数，越大则越说明样本内外表现的一致性。
 第五，收集所有的$c\in C_S$的$\lambda_c$来估计OOS的排名分布$f(\lambda)$。
-最后，$PBO = \int_{-\infty}^0 f(\lambda)d\lambda$, 表示样本内最优策略在样本外处于中位数以下的概率。
+最后，$PBO = \int_{-\infty}^0 f(\lambda)d\lambda$, 表示样本内最优策略在样本外处于中位数以下的概率。这个概率同样可以衡量回测过拟合发生的概率。

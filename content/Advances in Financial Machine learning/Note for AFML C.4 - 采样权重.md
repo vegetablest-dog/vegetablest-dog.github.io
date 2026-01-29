@@ -1,5 +1,5 @@
 ---
-title: Note for Chapter 4 for AFML
+title: Note for AFML C.4 - 采样权重
 tags:
   - data-analysis
 ---
