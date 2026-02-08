@@ -1,5 +1,5 @@
 ---
-title: Note for AMFL C.15 - 理解战略风险
+title: Note for AFML C.15 - 理解战略风险
 tags:
   - backtesting
 ---
